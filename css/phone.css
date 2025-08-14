@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+
+header{
+    height:580px;
+}
+
+
+header h1{
+    font-size: 2rem;
+    align-self: flex-start;
+    margin-left: 20px;
+    max-width: 200px;
+    line-height: 40px;
+}
+
+
+header p{
+    font-size: 1rem;
+    max-width: 381px;
+    margin: 20px 0;
+    text-align: justify;
+    
+}
+header #links{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+header #link-windows{
+    height: 54px;
+    max-width: 388px;
+    padding: 14px 96.8px;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+header #link-discord{
+    max-width: 388px;
+    height: 54px;
+    padding: 14px 52px;
+    text-align: center;
+}
+
+#server{
+    flex-flow: column nowrap;
+    height: 650px;
+}
+
+#server img{
+    max-width: 95%;
+}
+
+#server .content h2{
+    font-size: 1.4rem;
+    height: 120px;
+}
+
+#server .content p{
+    height: 168px;
+    text-align: justify;
+}
+
+#voice{
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    height: 650px;
+}
+
+#voice img{
+    max-width: 100%;
+}
+
+#voice .content h2{
+    font-size: 1.4rem;
+    height: 58px;
+    
+}
+
+#voice .content p{
+    text-align: justify;
+}
+
+#comunity{
+    flex-flow: column nowrap;
+    height: 650px;
+}
+
+#comunity img{
+    max-width: 100%;
+}
+
+#comunity .content h2{
+    font-size: 1.4rem;
+    height: 58px;
+    
+}
+
+#comunity .content p{
+    text-align: justify;
+}
+
+#conexion{
+    height: 650px;
+}
+
+#conexion img{
+    max-width: 100%;
+
+}
+
+#conexion .content h2{
+    font-size: 2rem;
+    text-align: left;
+    padding: 15px;
+}
+
+#conexion .content p{
+    text-align: justify;
+    padding: 15px;
+}
+
+footer{
+    height: 100px;
+
+    
+}
+

@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/img/bg-header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:609px;
+}
+
+header h1{
+    font-family: "Luckiest Guy", cursive;
+    color: white;
+    max-width: 429px;
+    font-size: 4rem;
+    line-height: 73px;
+    
+}
+
+header p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    max-width: 752px;
+    margin: 30px;
+    
+}
+
+header #links{
+    max-width: 502px;
+    height: 44px;
+}
+
+header #link-windows{
+    max-width: 205px;
+    height: 44px;
+    padding: 14px 23px;
+    background-color: white;
+    color: #23272A;
+    border-radius: 23px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header #link-windows:hover{
+    background-color: #23272A;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+header #link-discord{
+    max-width: 281px;
+    height: 44px;
+    padding: 14px 13px;
+    background-color: #23272A;
+    color: white;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+header #link-discord:hover{
+    background-color: white;
+    color: #23272A;
+    transition: 0.5s ease-in;
+}
+
+#server{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 30px;
+}
+
+#server .content h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    max-width: 329px;
+    height: 270px;
+    color: #23272A;
+}
+
+#server .content p{
+    max-width: 346px;
+    height: 148px;
+    letter-spacing: 1px;
+    color: #23272A;
+    padding-top: 10px;
+}
+
+#voice{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #F6F6F6;
+    gap: 30px;
+}
+
+#voice .content h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    max-width: 329px;
+    height: 108px;
+    color: #23272A;
+    
+}
+
+#voice .content p{
+    max-width: 352px;
+    height: 148px;
+    letter-spacing: 1px;
+    color: #23272A;
+    padding-top: 10px;
+}
+
+#comunity{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: white;
+    gap: 30px;
+}
+
+#comunity .content h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    max-width: 329px;
+    height: 108px;
+    color: #23272A;
+    
+}
+
+#comunity .content p{
+    max-width: 352px;
+    height: 168px;
+    letter-spacing: 1px;
+    color: #23272A;
+    padding-top: 10px;
+}
+
+#conexion{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    background-color: #F6F6F6;
+    gap: 30px;
+}
+
+#conexion .content h2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #23272A;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+#conexion .content p{
+    max-width: 900px;
+    letter-spacing: 1px;
+    color: #23272A;
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 134px;
+    background-color: #23272A;
+    
+}
+
