@@ -39,7 +39,7 @@ Acesse o protótipo original usado como referência:
 ## 🌐 Deploy Online
 
 Acesse a versão online do projeto:  
-[🔗 Clique aqui](https://)
+[🔗 Clique aqui](https://andrew-vieira.github.io/landing-page-discord/)
 
 ---
 
